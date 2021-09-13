@@ -1,0 +1,13 @@
+.but {
+  padding: 12px;
+  background-color: #382f5a;
+  color: #d4d2db;
+  cursor: pointer;
+  outline: none;
+  border-radius: 12px;
+  margin: 10px;
+  border-width: 5px solid;
+  border-color: #c4c4c4;
+  font-weight: bold;
+  width: 120px;
+}

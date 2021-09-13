@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  font-family: 'Robot';
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  border-radius: 12px;
+  padding: 25px;
+  width: 500px;
+}
+
+.head {
+  color: #d4d2db;
+  margin: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blueBox {
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 450px;
+}
+
+.upperPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.balanceElement {
+  color: #585076;
+  font-weight: bold;
+}
+.cashElement {
+  color: #c7d2fe;
+  font-weight: bold;
+  font-size: 25px;
+}
+.rupeesElement {
+  color: #585076;
+  font-weight: bold;
+  font-size: 12px;
+}
+.secondPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.withDrawElement {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sum {
+  color: #585076;
+  font-weight: bold;
+}
+
+.ulContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
